@@ -1,0 +1,49 @@
+.header {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 10em 10em;
+  grid-gap: 1em;
+  width: 100%;
+}
+
+.news {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 10em;
+  grid-gap: 1em;
+}
+
+.header article:first-child {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+article, news {
+  padding: 10px;
+}
+
+#a1 {
+  background-color: red;
+}
+#a2 {
+  background-color: green;
+}
+#a3 {
+  background-color: yellow;
+}
+#a4 {
+  background-color: blue;
+}
+#a5 {
+  background-color: purple;
+}
+
+#a6 {
+  background-color: red;
+}
+#a7 {
+  background-color: green;
+}
+#a8 {
+  background-color: blue;
+}
